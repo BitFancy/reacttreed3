@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "target": "es6",
+    "allowJs": true,
+    "jsx": "react",
+    "outDir": "./lib/esm",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "*.js": ["*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/tests/*", "**/*.spec.ts", "**/*.test.ts", "**/*.test.js"]
+}
